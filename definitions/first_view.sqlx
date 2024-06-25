@@ -13,4 +13,4 @@ config {
 
 -- The rest of a SQLX file contains your SELECT statement used to create the table.
 
-SELECT PassengerId,count(*) id_count  from test-dev-001-427107.dataflowtestdemo.titsnic_gold group by PassengerId
+SELECT  id,count(*) as count_id from test-dev-001-427107.dataform.testdata group by id
